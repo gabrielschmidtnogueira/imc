@@ -19,7 +19,7 @@ btn.addEventListener("click", function (e) {
     
     if (imc<18.5){
         document.getElementById("resultado").innerHTML = "O seu IMC é: " + valor +"<br>Você está abaixo do peso recomendado";
-    }elif (imc>25){
+    }else if (imc>25){
         document.getElementById("resultado").innerHTML = "O seu IMC é: " + valor +"<br>Você está acima do peso";
     }else{
         document.getElementById("resultado").innerHTML = "O seu IMC é: " + valor +"<br>Você está bacana 👍";

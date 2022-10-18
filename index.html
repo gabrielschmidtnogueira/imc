@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body style="color: 'aliceblue';">
+    <div class="mainCalcular">
+        <div class="leftCalcular">
+            <h1>CALCULADOR DE IMC</h1>
+            <p>Índice de Massa Corporal. Você já deve ter ouvido falar nisso. Talvez apenas a sigla IMC. Mas você sabe
+                que índice é este e o que ele pode dizer sobre a sua saúde?</p>
+
+            <p>Criado no século 19 pelo matemático Lambert Quételet, o Índice de Massa Corporal, conhecido pela sigla
+                IMC, é um cálculo simples que permite medir se alguém está ou não com o peso ideal. Ele aponta se o peso
+                está adequado ou se está abaixo ou acima do peso.</p>
+
+            <p>Para fazer o cálculo, basta dividir o peso pela altura ao quadrado. O número final representa o quanto a
+                pessoa tem de massa muscular + massa de gordura + massa óssea. Com o resultado, o próximo passo é
+                interpretá-lo.</p>
+
+            <label>(prof me da nota aaaaaaaaaaaaaaaaaaaaaa)</label>
+        </div>
+        <div class="rightCalcular">
+            <div class="cardCalcular">
+                <h1>Calcular</h1>
+                <div class="textField">
+                    <label for="altura">Qual é a sua altura em cm?</label>
+                    <input id="altura" type="number" name="altura" placeholder="Ex.: 180">
+                </div>
+
+                <div class="textField">
+                    <label for="peso">Qual é o seu peso?</label>
+                    <input id="peso" type="number" name="peso" placeholder="Ex.: 70 kg">    
+                </div>
+
+                <div class="textField">
+                    <label id="resultado">O seu IMC é: </label>
+                </div>
+
+                <button class="btnCalcular" id="calcular">CALCULAR</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

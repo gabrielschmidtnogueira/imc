@@ -13,7 +13,7 @@ btn.addEventListener("click", function (e) {
     const peso = document.querySelector("#peso");
     const pesoValue = peso.value;
 
-    const imc = (pesoValue / (alturaValue * alturaValue)) * 100;
+    const imc = (pesoValue / (alturaValue * alturaValue));
 
     var valor = arredondar(imc);
     

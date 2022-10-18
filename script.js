@@ -16,6 +16,13 @@ btn.addEventListener("click", function (e) {
     const imc = (pesoValue / (alturaValue * alturaValue)) * 100;
 
     var valor = arredondar(imc);
-
-    document.getElementById("resultado").innerHTML = "O seu IMC é: " + valor;
+    
+    if (imc<18.5){
+        document.getElementById("resultado").innerHTML = "O seu IMC é: " + valor +"<br>Você está abaixo do peso recomendado";
+    }elif (imc>25){
+        document.getElementById("resultado").innerHTML = "O seu IMC é: " + valor +"<br>Você está acima do peso";
+    }else{
+        document.getElementById("resultado").innerHTML = "O seu IMC é: " + valor +"<br>Você está bacana 👍";
+    }
+    
 })

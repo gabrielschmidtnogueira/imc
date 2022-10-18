@@ -126,7 +126,7 @@ body * {
 @media only screen and (max-width:600px) {
     .mainCalcular {
         flex-direction: column;
-        margin-botton:12px;
+
     }
 
     .leftCalcular>h1 {
@@ -142,6 +142,7 @@ body * {
     .rightCalcular {
         width: 100%;
         height: auto;
+        margin-botton:12px;
     }
 
     .cardCalcular {

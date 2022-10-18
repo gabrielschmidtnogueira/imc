@@ -142,7 +142,9 @@ body * {
     .rightCalcular {
         width: 100%;
         height: auto;
-        margin-botton:12px;
+        margin-bottom:12px;
+
+
     }
 
     .cardCalcular {

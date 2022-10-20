@@ -8,10 +8,10 @@ btn.addEventListener("click", function (e) {
     e.preventDefault();
 
     const altura = document.querySelector("#altura");
-    if(altura.value>3){
-    const alturaValue = altura.value / 100;}
-    else{
     const alturaValue = altura.value;}
+    if(alturaValue>3){
+        const alturaValue/ 100;
+    }
 
     const peso = document.querySelector("#peso");
     const pesoValue = peso.value;

@@ -8,7 +8,7 @@ btn.addEventListener("click", function (e) {
     e.preventDefault();
 
     const altura = document.querySelector("#altura");
-    const alturaValue = altura.value/100;
+    var alturaValue = altura.value/100;
     if (alturaValue<1){
         alturaValue = alturaValue*100;
     }

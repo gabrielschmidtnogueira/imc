@@ -8,7 +8,7 @@ btn.addEventListener("click", function (e) {
     e.preventDefault();
 
     const altura = document.querySelector("#altura");
-    const alturaValue = altura.value;}
+    const alturaValue = altura.value;
 
     const peso = document.querySelector("#peso");
     const pesoValue = peso.value;
